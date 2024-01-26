@@ -2,17 +2,29 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { HomeComponent } from './static/home/home.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoadImageComponent } from './static/load-image/load-image.component';
+import { MenuComponent } from './static/menu/menu.component';
+import { AboutComponent } from './static/about/about.component';
+import { MainComponent } from './static/main/main.component';
+import { ContactComponent } from './static/contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    HomeComponent,
+    LoadImageComponent,
+    MenuComponent,
+    AboutComponent,
+    MainComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [MainComponent]
 })
 export class AppModule { }

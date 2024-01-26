@@ -1,0 +1,24 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">Létezz Könnyedén</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" (click)="menuCollapse=!menuCollapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" [ngbCollapse]="menuCollapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 l" >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="about">Rólam</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " routerLink="contact"  aria-disabled="true">Kapcsolat</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
