@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class LoadImageComponent implements OnInit {
 @Input() source:string = "";
+@Input() imageClassIfExist:string="";
 constructor(){
 
 }
