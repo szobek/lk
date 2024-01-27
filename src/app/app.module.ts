@@ -10,6 +10,7 @@ import { AboutComponent } from './static/about/about.component';
 import { MainComponent } from './static/main/main.component';
 import { ContactComponent } from './static/contact/contact.component';
 import { HorizontalLineComponent } from './static/horizontal-line/horizontal-line.component';
+import { CarouselComponent } from './dinamic/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HorizontalLineComponent } from './static/horizontal-line/horizontal-lin
     AboutComponent,
     MainComponent,
     ContactComponent,
-    HorizontalLineComponent
+    HorizontalLineComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
