@@ -8,6 +8,7 @@ import { KineziologiaComponent } from './static/services/kineziologia/kineziolog
 import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-with-frogs.component';
 import { AccessComponent } from './static/services/access/access.component';
 import { TattooComponent } from './static/services/tattoo/tattoo.component';
+import { PriceComponent } from './static/price/price.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
@@ -17,7 +18,7 @@ const routes: Routes = [
   {path:"service/kineziologia",component:KineziologiaComponent},
   {path:"service/ugorjabekakkal",component:JumpWithFrogsComponent},
   {path:"service/accessbars",component:AccessComponent},
-  {path:"service/csillamtetovalas",component:TattooComponent}
+  {path:"service/csillamtetovalas",component:TattooComponent},{path:"arlista",component:PriceComponent}
 ];
 
 @NgModule({

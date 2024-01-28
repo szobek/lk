@@ -16,6 +16,7 @@ import { KineziologiaComponent } from './static/services/kineziologia/kineziolog
 import { AccessComponent } from './static/services/access/access.component';
 import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-with-frogs.component';
 import { TattooComponent } from './static/services/tattoo/tattoo.component';
+import { PriceComponent } from './static/price/price.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TattooComponent } from './static/services/tattoo/tattoo.component';
     KineziologiaComponent,
     AccessComponent,
     JumpWithFrogsComponent,
-    TattooComponent
+    TattooComponent,
+    PriceComponent
   ],
   imports: [
     BrowserModule,
