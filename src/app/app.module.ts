@@ -18,6 +18,7 @@ import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-w
 import { TattooComponent } from './static/services/tattoo/tattoo.component';
 import { PriceComponent } from './static/price/price.component';
 import { TitleComponent } from './static/title/title.component';
+import { AdminModule } from './AdminModule/admin.module';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,7 @@ import { TitleComponent } from './static/title/title.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule,AdminModule,
     NgbModule
   ],
   providers: [],

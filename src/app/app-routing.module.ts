@@ -18,7 +18,8 @@ const routes: Routes = [
   {path:"service/kineziologia",component:KineziologiaComponent},
   {path:"service/ugorjabekakkal",component:JumpWithFrogsComponent},
   {path:"service/accessbars",component:AccessComponent},
-  {path:"service/csillamtetovalas",component:TattooComponent},{path:"arlista",component:PriceComponent}
+  {path:"service/csillamtetovalas",component:TattooComponent},{path:"arlista",component:PriceComponent},
+  {path:"admin",loadChildren:()=> import("./AdminModule/admin.module").then(m=>m.AdminModule)}
 ];
 
 @NgModule({
