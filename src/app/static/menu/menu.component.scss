@@ -1,3 +1,11 @@
+$navBgColor:#7fffd4;
+$navLinkColor:#555;
 .activeMenu{
   border-bottom: 2px solid #36f;
+}
+nav{
+  background-color: $navBgColor;
+  .nav-link,.navbar-brand{
+    color:$navLinkColor
+  }
 }
