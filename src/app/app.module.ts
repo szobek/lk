@@ -17,6 +17,7 @@ import { AccessComponent } from './static/services/access/access.component';
 import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-with-frogs.component';
 import { TattooComponent } from './static/services/tattoo/tattoo.component';
 import { PriceComponent } from './static/price/price.component';
+import { TitleComponent } from './static/title/title.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { PriceComponent } from './static/price/price.component';
     AccessComponent,
     JumpWithFrogsComponent,
     TattooComponent,
-    PriceComponent
+    PriceComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
