@@ -3,6 +3,8 @@
     <img
     *ngIf="i === currentSlide"
       [src]="slide.src"
+      (mouseover)="stopChange()"
+      (mouseleave)="changeImage()"
       class="slide"
     />
   </ng-container>

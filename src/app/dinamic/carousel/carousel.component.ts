@@ -9,13 +9,29 @@ import { Component,Input, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
   ngOnInit(): void {
-   setInterval(()=>{
-    if(this.currentSlide<this.slides.length-1)this.currentSlide++
-    else this.currentSlide=0
-   },3000)
+this.changeImage()
+
   }
   @Input() slides:{src:string}[] = [{src:""}];
 
   currentSlide = 0;
+  changeImageInterval:any
+
+  inreaseSlide() {
+    this.currentSlide++
+
+  }
+
+  changeImage(){
+    this.changeImageInterval=setInterval(()=>{
+      if(this.currentSlide<this.slides.length-1)this.inreaseSlide()
+      else this.currentSlide=0
+     },3000)
+
+  }
+
+  stopChange(){
+    clearInterval(this.changeImageInterval);
+  }
 
 }
