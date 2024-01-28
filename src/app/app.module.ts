@@ -11,6 +11,11 @@ import { MainComponent } from './static/main/main.component';
 import { ContactComponent } from './static/contact/contact.component';
 import { HorizontalLineComponent } from './static/horizontal-line/horizontal-line.component';
 import { CarouselComponent } from './dinamic/carousel/carousel.component';
+import { ServicesComponent } from './static/services/services.component';
+import { KineziologiaComponent } from './static/services/kineziologia/kineziologia.component';
+import { AccessComponent } from './static/services/access/access.component';
+import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-with-frogs.component';
+import { TattooComponent } from './static/services/tattoo/tattoo.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,12 @@ import { CarouselComponent } from './dinamic/carousel/carousel.component';
     MainComponent,
     ContactComponent,
     HorizontalLineComponent,
-    CarouselComponent
+    CarouselComponent,
+    ServicesComponent,
+    KineziologiaComponent,
+    AccessComponent,
+    JumpWithFrogsComponent,
+    TattooComponent
   ],
   imports: [
     BrowserModule,
