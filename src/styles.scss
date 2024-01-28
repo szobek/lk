@@ -1,14 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 $containerBgColor:rgb(117, 228, 145);
+$pColorInContainer:#555;
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 .container{
-  margin-top: 50px;
+  margin-top: 80px;
   background-color: $containerBgColor;
   border-radius: 10px;
   padding-bottom: 20px;
   font-family: 'Roboto', sans-serif;
-
+p,li{
+  color: $pColorInContainer;
+}
 }
 
 .roundedCornerImage{
