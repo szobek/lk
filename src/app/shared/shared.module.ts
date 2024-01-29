@@ -5,6 +5,7 @@ import { UpToTopComponent } from './up-to-top/up-to-top.component';
 import { TitleComponent } from './title/title.component';
 import { HorizontalLineComponent } from './horizontal-line/horizontal-line.component';
 import { LoadImageComponent } from './load-image/load-image.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
@@ -14,7 +15,7 @@ import { LoadImageComponent } from './load-image/load-image.component';
     UpToTopComponent,
     TitleComponent,
     HorizontalLineComponent,
-    LoadImageComponent
+    LoadImageComponent,CarouselComponent
   ],
   imports: [
     CommonModule
@@ -23,6 +24,6 @@ import { LoadImageComponent } from './load-image/load-image.component';
     UpToTopComponent,
     TitleComponent,
     HorizontalLineComponent,
-    LoadImageComponent]
+    LoadImageComponent,CarouselComponent]
 })
 export class SharedModule { }

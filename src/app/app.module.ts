@@ -11,7 +11,6 @@ import { MenuComponent } from './static/menu/menu.component';
 import { AboutComponent } from './static/about/about.component';
 import { MainComponent } from './static/main/main.component';
 import { ContactComponent } from './static/contact/contact.component';
-import { CarouselComponent } from './dinamic/carousel/carousel.component';
 import { ServicesComponent } from './static/services/services.component';
 import { KineziologiaComponent } from './static/services/kineziologia/kineziologia.component';
 import { AccessComponent } from './static/services/access/access.component';
@@ -28,7 +27,6 @@ import { SharedModule } from './shared/shared.module';
     AboutComponent,
     MainComponent,
     ContactComponent,
-    CarouselComponent,
     ServicesComponent,
     KineziologiaComponent,
     AccessComponent,
