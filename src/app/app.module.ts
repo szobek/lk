@@ -6,10 +6,10 @@ import { HomeComponent } from './static/home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoadImageComponent } from './static/load-image/load-image.component';
 import { MenuComponent } from './static/menu/menu.component';
-import { AboutComponent } from './static/about/about.component';
+import { AboutComponent } from './shared/about/about.component';
 import { MainComponent } from './static/main/main.component';
-import { ContactComponent } from './static/contact/contact.component';
-import { HorizontalLineComponent } from './static/horizontal-line/horizontal-line.component';
+import { ContactComponent } from './shared/contact/contact.component';
+import { HorizontalLineComponent } from './shared/horizontal-line/horizontal-line.component';
 import { CarouselComponent } from './dinamic/carousel/carousel.component';
 import { ServicesComponent } from './static/services/services.component';
 import { KineziologiaComponent } from './static/services/kineziologia/kineziologia.component';
@@ -17,8 +17,8 @@ import { AccessComponent } from './static/services/access/access.component';
 import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-with-frogs.component';
 import { TattooComponent } from './static/services/tattoo/tattoo.component';
 import { PriceComponent } from './static/price/price.component';
-import { TitleComponent } from './static/title/title.component';
-import { AdminModule } from './AdminModule/admin.module';
+import { TitleComponent } from './shared/title/title.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -36,14 +36,15 @@ import { AdminModule } from './AdminModule/admin.module';
     JumpWithFrogsComponent,
     TattooComponent,
     PriceComponent,
-    TitleComponent
+    TitleComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,AdminModule,
+    AppRoutingModule,SharedModule,
     NgbModule
   ],
   providers: [],
-  bootstrap: [MainComponent]
+  bootstrap: [MainComponent],exports:[TitleComponent]
 })
 export class AppModule { }
