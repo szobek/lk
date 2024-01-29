@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './static/home/home.component';
-import { AboutComponent } from './shared/about/about.component';
-import { ContactComponent } from './shared/contact/contact.component';
+import { AboutComponent } from './static/about/about.component';
+import { ContactComponent } from './static/contact/contact.component';
 import { ServicesComponent } from './static/services/services.component';
 import { KineziologiaComponent } from './static/services/kineziologia/kineziologia.component';
 import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-with-frogs.component';
