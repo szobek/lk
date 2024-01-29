@@ -6,11 +6,11 @@ import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
   declarations: [
-    HelloComponent
+    HelloComponent,
   ],
   imports: [
     CommonModule
   ],
-  exports:[HelloComponent]
+  exports:[]
 })
 export class SharedModule { }

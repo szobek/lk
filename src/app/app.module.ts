@@ -19,6 +19,8 @@ import { TattooComponent } from './static/services/tattoo/tattoo.component';
 import { PriceComponent } from './static/price/price.component';
 import { TitleComponent } from './shared/title/title.component';
 import { SharedModule } from './shared/shared.module';
+import { UpToTopComponent } from './shared/up-to-top/up-to-top.component';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +39,7 @@ import { SharedModule } from './shared/shared.module';
     TattooComponent,
     PriceComponent,
     TitleComponent,
-
+UpToTopComponent
   ],
   imports: [
     BrowserModule,
