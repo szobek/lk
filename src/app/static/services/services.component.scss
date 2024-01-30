@@ -6,6 +6,9 @@
           cursor: pointer;
           display: block;
           width: 150px;
+          font-weight: bold;
+          letter-spacing: 0.4rem;
+          width: fit-content;
           &:hover{
             text-decoration: underline;
           }
