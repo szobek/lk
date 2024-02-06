@@ -18,6 +18,7 @@ import { JumpWithFrogsComponent } from './static/services/jump-with-frogs/jump-w
 import { TattooComponent } from './static/services/tattoo/tattoo.component';
 import { PriceComponent } from './static/price/price.component';
 import { SharedModule } from './shared/shared.module';
+import { FooterComponent } from './static/footer/footer.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { SharedModule } from './shared/shared.module';
     JumpWithFrogsComponent,
     TattooComponent,
     PriceComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

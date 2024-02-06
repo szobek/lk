@@ -1,0 +1,25 @@
+.container-fluid {
+  background-color: black;
+  margin-top: 6rem;
+
+  .container {
+    background-color: black;
+    min-height: 100px;
+   ul{
+    li{
+      color: azure;
+      list-style: none;
+      a{
+        color: azure;
+        text-decoration: none;
+      }
+    }
+   }
+    p{
+      color: azure;
+      text-align: center;
+      text-decoration: underline;
+    }
+  }
+}
+
